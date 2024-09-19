@@ -18,6 +18,16 @@ public class HomeController : Controller
         return View();
     }
 
+    public IActionResult Expenses()
+    {
+        return View();
+    }
+
+    public IActionResult CreateEditExpense()
+    {
+        return View();
+    }
+
     public IActionResult Privacy()
     {
         return View();
